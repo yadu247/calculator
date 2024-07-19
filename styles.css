@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-container {
+  width: 30vw;
+  height: 70vh;
+  border: 2px solid black;
+}
+.value-container {
+  width: 88%;
+  height: 25%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 2% 6%;
+}
+.value-container h1 {
+  font-size: 40px;
+}
+
+.buttons-container {
+  width: 100%;
+  height: 75%;
+}
+
+.buttons-container button {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+.row-buttons {
+  display: flex;
+  height: 20%;
+  justify-content: space-around;
+}

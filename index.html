@@ -9,38 +9,42 @@
   </head>
   <body>
     <div class="calculator-container">
-      <div class="value-container"><h1>0</h1></div>
+      <div class="value-container"><h1 id="value-id">0</h1></div>
 
       <div class="buttons-container">
         <div class="row-buttons">
-          <button>AC</button>
-          <button>()</button>
-          <button>%</button>
-          <button>/</button>
+          <button></button>
+          <button id="all-clear" onclick="numberClick(this.id)">AC</button>
+          <button id="operator-mod" onclick="numberClick(this.id)">%</button>
+          <button id="operator-divide" onclick="numberClick(this.id)">/</button>
         </div>
         <div class="row-buttons">
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>*</button>
+          <button id="number-7" onclick="numberClick(this.id)">7</button>
+          <button id="number-8" onclick="numberClick(this.id)">8</button>
+          <button id="number-9" onclick="numberClick(this.id)">9</button>
+          <button id="operator-multiply" onclick="numberClick(this.id)">
+            *
+          </button>
         </div>
         <div class="row-buttons">
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>-</button>
+          <button id="number-4" onclick="numberClick(this.id)">4</button>
+          <button id="number-5" onclick="numberClick(this.id)">5</button>
+          <button id="number-6" onclick="numberClick(this.id)">6</button>
+          <button id="operator-subtract" onclick="numberClick(this.id)">
+            -
+          </button>
         </div>
         <div class="row-buttons">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>+</button>
+          <button id="number-1" onclick="numberClick(this.id)">1</button>
+          <button id="number-2" onclick="numberClick(this.id)">2</button>
+          <button id="number-3" onclick="numberClick(this.id)">3</button>
+          <button id="operator-add" onclick="numberClick(this.id)">+</button>
         </div>
         <div class="row-buttons">
-          <button>0</button>
-          <button>.</button>
-          <button>Del</button>
-          <button>=</button>
+          <button id="number-0" onclick="numberClick(this.id)">0</button>
+          <button id="fraction-point" onclick="numberClick(this.id)">.</button>
+          <button id="del-digit" onclick="numberClick(this.id)">Del</button>
+          <button id="operator-equal" onclick="numberClick(this.id)">=</button>
         </div>
       </div>
     </div>
